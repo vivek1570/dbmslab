@@ -1,0 +1,16 @@
+stage-11
+
+Thus, we will need to implement methods to write to the attribute cache. Additionally, we will also modify the OpenRelTable::closeRel() 
+function to write-back any dirty attribute cache entries on relation closing. Note that we do not need to update the destructor of the 
+OpenRelTable class to handle write-back for the attribute cache entries of the relation catalog and the attribute catalog (why?).
+
+Bplustree.cpp  create index: 280
+the value taken is correct or not
+
+Bplustree.cpp   destroy recurion
+
+Bplustree.cpp insertion , index struct creation
+
+Bplustree.cpp: 428 cmpattr
+
+insertintoleaf:458
